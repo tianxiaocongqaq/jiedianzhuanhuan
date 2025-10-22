@@ -33,7 +33,7 @@
       }
     ],
     "final": "proxyDns",
-    "strategy": "prefer_ipv4",
+    "strategy": "ipv4_only",
     "independent_cache": true,
     "reverse_mapping": true
   },
@@ -48,7 +48,7 @@
       "auto_route": true,
       "strict_route": true,
       "sniff_override_destination": true,
-      "domain_strategy": "prefer_ipv4"
+      "domain_strategy": "ipv4_only"
     }
   ],
   "outbounds": [
@@ -115,4 +115,5 @@
       "store_fakeip": true
     }
   }
+
 }
